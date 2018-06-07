@@ -1,0 +1,178 @@
+/*
+*
+*	CSS Reset
+*
+*/
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+/*
+*
+*	General Rules
+*
+*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+header#mainHeader {
+	background-color: violet;
+	width: 20vw;
+	height: 100vh;
+	position: fixed;
+	padding:25px;
+}
+
+header#mainHeader > img {
+	width:100%;
+	margin-bottom: 25px;
+	border:2px solid black;
+}
+
+header#mainHeader > nav > ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+header#mainHeader > nav > ul > li {
+	height: 50px;
+	margin-bottom: 5px;
+}
+header#mainHeader > nav > ul > li > a {
+	text-decoration: none;
+	background-color: lightblue;
+	line-height: 50px;
+	display: block;
+}
+header#mainHeader > nav > ul > li > a:hover {
+	background-color:blue;
+	color:white;
+} 
+
+
+main#wrapper {
+	background-color:lightgrey;
+	margin-left: 20vw;
+	color:white;
+}
+
+main#wrapper h2 {
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+section#home {
+	background-color: red;
+	height:100vh;
+	position: relative;
+}
+
+section#home > div {
+	border: 3px solid white;
+	width:50%;
+	padding:25px;
+	text-align: center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+section#home > div > h3 {
+	margin-bottom:10px;
+}
+
+section#about {
+	background-color: orange;
+	min-height: 50vh;
+}
+
+section#about > p {
+	padding:0 25px 25px 25px;
+}
+
+section#services {
+	background-color: yellow;
+	min-height: 75vh;
+	padding:0 15px 15px 15px;
+}
+
+section#services > div {
+	border:2px solid black;
+	padding:15px;
+	width:33.33%;
+	float:left;
+}
+
+section#projects {
+	background-color: green;
+	min-height:100vh;
+}
+
+section#projects > div {
+	border:2px solid white;
+	padding:15px;
+	float:left;
+	width:25%;
+}
+
+section#projects > div > img {
+	width:100%;
+}
+
+section#contact {
+	background-color: blue;
+	min-height: 50vh;
+}
+
+section#contact > p {
+	padding:10px;
+}
+
+footer#mainFooter {
+	background-color: indigo;
+}
+
+footer#mainFooter > div#left {
+	width:50%;
+	float:left;
+	font-size:12px;
+	padding: 30px;
+}
+
+footer#mainFooter > div#right {
+	width:50%;
+	/*display: inline-block;*/
+	float:left;
+	padding:22px;
+}
+
+footer#mainFooter > div#right > ul {
+	text-align: right;
+	list-style-type: none;
+}
+
+footer#mainFooter > div#right > ul > li {
+	display: inline-block;
+	padding-left:5px;
+}
+
+footer#mainFooter > div#right a {
+	text-decoration: : none;
+}
+
+.clear:after {
+	content:"";
+	display: block;
+	clear:both;
+}
+
+/*FONTS
+font-family: 'Work Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
