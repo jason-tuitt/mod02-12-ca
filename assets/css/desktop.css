@@ -1,4 +1,6 @@
 @media only screen and (min-width: 961px) {
+
+
 	header#mainHeader {
 		background-color: violet;
 		width: 20vw;
@@ -45,10 +47,19 @@
 		text-align: center;
 	}
 
+	/*Home*/
+
 	section#home {
 		background-color: red;
 		height:100vh;
 		position: relative;
+	}
+
+	section#home > div > h3 {
+		font-size: 50px;
+		letter-spacing: 3px;
+		text-align: center;
+		text-transform: uppercase;
 	}
 
 	section#home > div {
@@ -66,9 +77,16 @@
 		margin-bottom:10px;
 	}
 
+	/*About*/
+
 	section#about {
 		background-color: orange;
 		min-height: 50vh;
+	}
+
+	section#about > h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	section#about > p {
@@ -81,17 +99,47 @@
 		padding:0 15px 15px 15px;
 		color:black;
 	}
+	section#services > h3 {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
 
 	section#services > div {
 		border:2px solid black;
 		padding:15px;
-		width:33.33%;
-		float:left;
+		/*width:100%;*/
+		width: 33.33%;
+		float:left; 
+		margin-bottom: 15px;
 	}
+
+	section#services > h2 {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	section#services > div > img {
+		float:left;
+		width:100%;
+		/*width:20%;*/
+		margin-right: 15px;
+	}
+	section#services > div > p {
+		overflow:hidden;
+		text-align: justify; 
+	}
+
+	/*PROJECTS*/
 
 	section#projects {
 		background-color: green;
-		min-height:100vh;
+		/*min-height:100vh;*/
+		padding:10px;
+	}
+
+	section#projects > h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	section#projects > div {
@@ -99,19 +147,34 @@
 		padding:15px;
 		float:left;
 		width:25%;
+		/*width:50%;*/
+		text-align: justify;
+	}
+
+	section#projects > div > h3 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
 	}
 
 	section#projects > div > img {
 		width:100%;
 	}
 
+	/*CONTACT*/
+
 	section#contact {
 		background-color: blue;
-		min-height: 50vh;
+		/*min-height: 50vh;*/
 	}
-
+	section#contact > h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 	section#contact > p {
-		padding:10px;
+		/*padding:10px;*/
+		padding:0 25px 25px;
+		text-align: justify;
 	}
 
 	footer#mainFooter {
